@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DARK TERMINAL</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      font-family: 'Courier New', monospace;
+      color: #00ff00;
+      overflow: hidden;
+    }
+
+    .terminal-box {
+      width: 80%;
+      max-width: 800px;
+      height: 200px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: #111;
+      border: 2px solid #00ff00;
+      border-radius: 10px;
+      box-shadow: 0 0 20px #00ff00;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .scroll-text {
+      position: absolute;
+      white-space: nowrap;
+      animation: scrollText 15s linear infinite;
+      color: #00ff00;
+      font-size: 1.1em;
+    }
+
+    @keyframes scrollText {
+      0% { left: 100%; }
+      100% { left: -100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="terminal-box">
+    <div class="scroll-text">
+      💻 Welcome to DARK TERMINAL_ User: Nvn | Secure Channel Established | Code: H4CK-M45T3R 🔥
+    </div>
+  </div>
+</body>
+</html>
